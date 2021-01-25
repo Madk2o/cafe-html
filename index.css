@@ -36,7 +36,7 @@ nav{
 }
 
 ul li a:hover{
-    color: yellowgreen;
+    background-color: whitesmoke;
 }
 
 nav ul li{
@@ -49,9 +49,29 @@ nav ul li{
 /* section1*/
 
 .section1 {
-text-align: center;
 background-image: url(images/frame.jpg);
 background-position:center center;
+padding : 1.9rem;
+width: 100%;
+height: 400px;
+color: white;
+}
+
+/* div section 1*/
+.section1 div {
+text-align: center;
+width: 50%;
+
+}
+
+/* bouton decouvrir*/
+
+.section1 a {
+    background-color: black;
+}
+
+.section1 a:hover{
+    background-color: white;
 }
 
 
