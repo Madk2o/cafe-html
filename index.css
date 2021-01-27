@@ -52,10 +52,11 @@ nav ul li{
 background-image: url(images/frame.jpg);
 background-position:center center;
 background-size: cover;
-padding : 1.9rem;
+padding : 1.9rem 1.9rem;
 width: 100%;
-height: 400px;
+height: 100%;
 color: white;
+text-align: center;
 }
 
 .section1 div hr{
@@ -82,12 +83,145 @@ font-style: bold;
     font-style: bold;
     }
 
-.
 /* bouton decouvrir*/
 
 .section1 div a{
     text-align: center;
+    background-color: black;
+    font-size: 1.5rem;
+    border-radius: 30px;
 }
 .section1 div a:hover{
-    background-color: whitesmoke;
+    background-color: grey;
+}
+
+/* section 2*/
+
+.section2{
+
+    text-align: center;
+    margin: 5rem;
+}
+
+/* section 2 div de gauche*/
+
+.section2 #div2g{
+display: inline-block;
+flex-direction: column;
+width: 50%;
+}
+
+/* section 2 div de droite*/
+
+.section2 #div2d{
+    display: inline-block;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+}
+
+
+/* image 2*/
+.image2{
+    background-image: url(/images/person-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+}
+
+/* section 3*/
+
+.section3{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-style: bold;
+    margin: 1rem;
+}
+
+.section3 p {
+    margin: 3rem 1rem;
+}
+
+/* section 3 lien*/
+
+.section3 a{
+    background-color: black;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+
+.section3 a:hover{
+    background-color: grey;
+}
+
+/* footer page # */
+
+footer{
+    background-color: #333;
+    height: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+/* section4 page where*/
+
+.section4{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+}
+
+.section4 #map{
+    flex-direction: column;
+    float:left;
+    display: inline-block;
+    width: 50%;
+
+}
+
+.section4 #infowhere{
+flex-direction: column;
+float:right;
+margin-top: 5rem;
+text-align: center;
+display: inline-block;
+width: 50%;
+height: 50%;
+}
+
+/* h3 page where*/
+
+.h3pagewhere{
+    font-size: 3rem;
+}
+
+/* p de la section 4 page Where*/
+#infowhere .parapagewhere{
+    font-size: 3rem;
+}
+
+/* span du p section 4*/
+
+#span1{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    border-radius: 30px;
+}
+
+#span2{
+    background-color:grey;
+    color: white;
+    font-size: 2rem;
+    border-radius: 30px;
 }
