@@ -58,21 +58,36 @@ height: 400px;
 color: white;
 }
 
-/* div section 1*/
-.section1 div {
-text-align: center;
-width: 50%;
+.section1 div hr{
+    width: 5rem;
+    height: 6px;
+    background-color: black;
+    display: inline-block;
 
 }
 
+/* h2 section 1*/
+.section1 div h2{
+text-align: center;
+font-size: 3rem;
+font-style: bold;
+}
+
+
+/* p de la section 1 */
+
+.section1 div p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: bold;
+    }
+
+.
 /* bouton decouvrir*/
 
-.section1 a {
-    background-color: black;
+.section1 div a{
+    text-align: center;
 }
-
-.section1 a:hover{
-    background-color: white;
+.section1 div a:hover{
+    background-color: whitesmoke;
 }
-
-
