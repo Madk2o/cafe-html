@@ -11,6 +11,7 @@
 html body {
     color: #222;
     font-family: 12px;
+    size: 100vh;
 }
 
 a{
@@ -166,10 +167,8 @@ footer{
     height: 2rem;
     color: whitesmoke;
     text-align: center;
-    display: block;
     font-size: 1rem;
     justify-content: center;
-    position:absolute;
     bottom:0;
     width: 100%;
 }
@@ -221,6 +220,8 @@ height: 50%;
     color: white;
     font-size: 2rem;
     border-radius: 30px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 #span2{
@@ -228,6 +229,7 @@ height: 50%;
     color: white;
     font-size: 2rem;
     border-radius: 30px;
+
 }
 
 /* page where */
@@ -241,4 +243,7 @@ height: 50%;
 .section5 .divwhere #form{
     flex-direction: column;
     position: relative;
+}
+button:hover{
+    background-color: #333;
 }
