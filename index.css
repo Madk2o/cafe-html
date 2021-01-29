@@ -169,6 +169,9 @@ footer{
     display: block;
     font-size: 1rem;
     justify-content: center;
+    position:absolute;
+    bottom:0;
+    width: 100%;
 }
 
 /* section4 page where*/
@@ -208,6 +211,7 @@ height: 50%;
 /* p de la section 4 page Where*/
 #infowhere .parapagewhere{
     font-size: 3rem;
+    display: inline-block;
 }
 
 /* span du p section 4*/
@@ -224,4 +228,17 @@ height: 50%;
     color: white;
     font-size: 2rem;
     border-radius: 30px;
+}
+
+/* page where */
+
+.section5 .divwhere{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.section5 .divwhere #form{
+    flex-direction: column;
+    position: relative;
 }
