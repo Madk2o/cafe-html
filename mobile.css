@@ -1,0 +1,48 @@
+@media screen and (min-width:300px) and (max-width:505px){
+    header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header h1 {
+        float: none;
+    }
+
+    header nav {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .section2 #div2g{
+    flex-direction: column;
+
+    }
+
+    .section3 #div2d{
+        overflow: hidden;
+        background-color: black;
+        float: left;
+        display: none;
+    }
+    .section3{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    /*mobile page where*/
+
+
+    .section4 #map{
+        margin: 1rem;
+        
+    }
+    .section4 #infowhere{
+        margin: 1rem;
+    }
+
+}
+

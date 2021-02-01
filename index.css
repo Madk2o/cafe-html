@@ -115,10 +115,8 @@ width: 50%;
 /* section 2 div de droite*/
 
 .section2 #div2d{
-    display: inline-block;
-    flex-direction: column;
-    width: 50%;
-    float: right;
+        display: inline-block;
+        margin: 2rem;
 }
 
 
